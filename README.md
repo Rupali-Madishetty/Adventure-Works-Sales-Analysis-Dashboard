@@ -47,13 +47,20 @@ The dataset consists of key sales-related features:
 - **Geographical Data**: Customer distribution across regions.
 
 ## How to Use
-1. **Clone the repository**:
-```bash
-git clone https://github.com/yourusername/powerbi-sales-dashboard.git
-```
-2. **Import CSV files into Power BI**.
-3. **Refresh Data**: Ensure updated insights with automatic daily refresh.
-4. **Explore Visualizations**: Interact with slicers and filters to analyze sales.
+1. **Set Up the Database**:
+   - Restore the AdventureWorksDW2019 database in **Microsoft SQL Server**.
+   - Run the provided **SQL scripts** to clean and preprocess the data.
+
+2. **Export Processed Data**:
+   - Save the cleaned data tables as CSV files.
+
+3. **Import Data into Power BI**:
+   - Load the CSV files into Power BI.
+   - Establish relationships between tables.
+
+4. **Customize the Dashboard**:
+   - Use slicers to filter data by **customers, products, and time periods**.
+   - Analyze key metrics and trends with visual charts.
 
 ## Results
 - **Real-time Sales Tracking**: Updated dashboards with KPIs.
